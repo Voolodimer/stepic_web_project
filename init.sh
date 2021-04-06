@@ -13,4 +13,4 @@ sudo ln -sf /home/box/web/etc/gunicorn-django.conf /etc/gunicorn.d/gunicorn-djan
 
 sudo /etc/init.d/gunicorn restart
 
-sudo gunicorn -c /etc/gunicorn.d/gunicorn-django.conf ask.wsgi:application
+sudo gunicorn -c /home/web/ask/ask/ wsgi:application
