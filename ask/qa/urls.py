@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-import ask.qa.views
+from qa import views
 
 urlpatterns = [
     path('admin/', ask.qa.views.test),
