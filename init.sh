@@ -13,4 +13,5 @@ sudo ln -sf /home/box/web/etc/gunicorn-django.conf /etc/gunicorn.d/gunicorn-djan
 
 sudo /etc/init.d/gunicorn restart
 
-sudo gunicorn -c /home/box/web/ask/ask/wsgi.py wsgi:application
+gunicorn --bind=0.0.0.0:8000 --workers=2 ==timeout=15 --log-level=gebug
+# sudo gunicorn -c /home/box/web/ask/ask/wsgi.py wsgi:application
