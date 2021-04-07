@@ -33,5 +33,5 @@ urlpatterns = patterns('',
     url(r'^question/(\d+)$', include(qa.views.test)),
     url(r'^ask/.*$', include(qa.views.test)),
     url(r'^popular/$', include(qa.views.test)),
-    url(r'^new/$', 'qa.views.test'),
+    url(r'^new/$', include(qa.views.test)),
 )
