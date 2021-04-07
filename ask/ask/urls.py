@@ -27,12 +27,12 @@ from django.contrib import admin
 from qa import views
 admin.autodiscover()
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', include(views.test)),
-    url(r'^login/$', include(views.test)),
-    url(r'^signup/$', include(views.test)),
-    url(r'^question/(\d+)$', include(views.test)),
-    url(r'^ask/.*$', include(views.test)),
-    url(r'^popular/$', include(views.test)),
-    url(r'^new/$', include(views.test)),
+    url(r'^admin/', admin.site.urls),
+    url(r'^$', views.test),
+    url(r'^login/$', views.test),
+    url(r'^signup/$', views.test),
+    url(r'^question/(\d+)$', views.test),
+    url(r'^ask/.*$', views.test),
+    url(r'^popular/$', views.test),
+    url(r'^new/$', views.test),
 ]
