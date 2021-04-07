@@ -25,7 +25,7 @@ from django.conf.urls import patterns, include, url
 
 from django.contrib import admin
 from qa import views
-
+admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'qa.views.test'),
     url(r'^login/$', 'qa.views.test'),
