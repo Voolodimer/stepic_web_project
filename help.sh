@@ -24,6 +24,10 @@ sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt instal
 sudo rm /usr/bin/python3 && sudo ln -s /usr/bin/python3.6 /usr/bin/python3
 curl "https://bootstrap.pypa.io/ez_setup.py" -o "ez_setup.py" && curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 sudo python3 ez_setup.py && sudo python3 get-pip.py
+
+virtualenv -p python3 myvenv
+source myvenv/bin/activate
+
 sudo -H /usr/local/bin/pip3 install --upgrade django==3.1
 sudo pip3 install --upgrade pip
 sudo pip3 install --upgrade django==2.1
