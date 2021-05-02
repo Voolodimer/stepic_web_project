@@ -24,20 +24,13 @@ sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt instal
 sudo rm /usr/bin/python3 && sudo ln -s /usr/bin/python3.6 /usr/bin/python3
 curl "https://bootstrap.pypa.io/ez_setup.py" -o "ez_setup.py" && curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 sudo python3 ez_setup.py && sudo python3 get-pip.py
-sudo apt-get install python3.6-dev libmysqlclient-dev
-# virtualenv -p python3 myvenv
-# source myvenv/bin/activate
+sudo apt-get install python3.6-dev libmysqlclient-dev mysql-server
 
 
 sudo pip3 install --upgrade pip
 sudo -H /usr/local/bin/pip3 install --upgrade django==3.1
-# sudo pip3 install --upgrade django==2.1
+sudo pip3 install --upgrade django==3.1
 sudo pip3 install --upgrade gunicorn
-
-# sudo apt-get update
-# sudo apt-get install python-pip python-dev mysql-server libmysqlclient-dev
-# sudo apt-get install python3-dev
-# sudo pip3 install django mysqlclient
 
 # sudo apt update
 # sudo apt install python3.5
@@ -46,18 +39,6 @@ sudo pip3 install --upgrade gunicorn
 # sudo ln -s /usr/bin/python3.5 /usr/bin/python3
 # sudo python3 -m pip install gunicorn
 # sudo python3 -m install django==2.0
-
-# sudo apt-get update
-# sudo apt-get install -y python3.5
-# sudo apt-get install -y python3.5-dev
-# sudo unlink /usr/bin/python3
-# sudo ln -s /usr/bin/python3.5 /usr/bin/python3
-# sudo pip3 install --upgrade pip
-# sudo pip3 install --upgrade django==2.1
-# sudo pip3 install --upgrade gunicorn
-
-# virtualenv -p python3 myvenv
-# source myvenv/bin/activate
 
 
 sudo python3 -m pip install mysqlclient
