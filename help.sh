@@ -19,6 +19,7 @@
 # sudo pip3 install --upgrade django==2.1
 # sudo pip3 install --upgrade gunicorn
 
+sudo /etc/init.d/mysql start
 sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt install python3.6
 sudo rm /usr/bin/python3 && sudo ln -s /usr/bin/python3.6 /usr/bin/python3
 curl "https://bootstrap.pypa.io/ez_setup.py" -o "ez_setup.py" && curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
