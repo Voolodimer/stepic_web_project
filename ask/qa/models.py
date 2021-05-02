@@ -14,7 +14,7 @@ class Answer(models.Model):
     text = models.TextField()
     added_at = models.DateField(auto_now_add=True)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    author = models.CharField(max_length=255)
+    author = models.ForeignKey(User, default=1)
 
 class QuestionManager(models.Manager):
     def new(self):
