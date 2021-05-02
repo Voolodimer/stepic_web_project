@@ -1,0 +1,2152 @@
+[2021-04-20 23:34:26 +0300] [4312] [INFO] Starting gunicorn 20.1.0
+[2021-04-20 23:34:26 +0300] [4312] [INFO] Listening at: http://0.0.0.0:8080 (4312)
+[2021-04-20 23:34:26 +0300] [4312] [INFO] Using worker: sync
+[2021-04-20 23:34:26 +0300] [4314] [INFO] Booting worker with pid: 4314
+[2021-04-20 23:34:26 +0300] [4314] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:34:26 +0300] [4314] [INFO] Worker exiting (pid: 4314)
+[2021-04-20 23:34:26 +0300] [4315] [INFO] Booting worker with pid: 4315
+[2021-04-20 23:34:26 +0300] [4315] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:34:26 +0300] [4315] [INFO] Worker exiting (pid: 4315)
+[2021-04-20 23:34:26 +0300] [4312] [WARNING] Worker with pid 4315 was terminated due to signal 15
+[2021-04-20 23:34:26 +0300] [4312] [INFO] Shutting down: Master
+[2021-04-20 23:34:26 +0300] [4312] [INFO] Reason: Worker failed to boot.
+[2021-04-20 23:35:32 +0300] [4356] [INFO] Starting gunicorn 20.1.0
+[2021-04-20 23:35:32 +0300] [4356] [INFO] Listening at: http://0.0.0.0:8080 (4356)
+[2021-04-20 23:35:32 +0300] [4356] [INFO] Using worker: sync
+[2021-04-20 23:35:32 +0300] [4358] [INFO] Booting worker with pid: 4358
+[2021-04-20 23:35:32 +0300] [4358] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:32 +0300] [4358] [INFO] Worker exiting (pid: 4358)
+[2021-04-20 23:35:32 +0300] [4356] [INFO] Shutting down: Master
+[2021-04-20 23:35:32 +0300] [4356] [INFO] Reason: Worker failed to boot.
+[2021-04-20 23:35:41 +0300] [4359] [INFO] Starting gunicorn 20.1.0
+[2021-04-20 23:35:41 +0300] [4359] [INFO] Listening at: http://0.0.0.0:8080 (4359)
+[2021-04-20 23:35:41 +0300] [4359] [INFO] Using worker: sync
+[2021-04-20 23:35:41 +0300] [4361] [INFO] Booting worker with pid: 4361
+[2021-04-20 23:35:41 +0300] [4361] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:41 +0300] [4361] [INFO] Worker exiting (pid: 4361)
+[2021-04-20 23:35:41 +0300] [4362] [INFO] Booting worker with pid: 4362
+[2021-04-20 23:35:41 +0300] [4362] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:41 +0300] [4362] [INFO] Worker exiting (pid: 4362)
+[2021-04-20 23:35:41 +0300] [4363] [INFO] Booting worker with pid: 4363
+[2021-04-20 23:35:41 +0300] [4363] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:41 +0300] [4363] [INFO] Worker exiting (pid: 4363)
+[2021-04-20 23:35:41 +0300] [4359] [WARNING] Worker with pid 4362 was terminated due to signal 15
+[2021-04-20 23:35:59 +0300] [4368] [INFO] Starting gunicorn 20.1.0
+[2021-04-20 23:35:59 +0300] [4368] [INFO] Listening at: http://0.0.0.0:8080 (4368)
+[2021-04-20 23:35:59 +0300] [4368] [INFO] Using worker: sync
+[2021-04-20 23:35:59 +0300] [4370] [INFO] Booting worker with pid: 4370
+[2021-04-20 23:35:59 +0300] [4370] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:59 +0300] [4370] [INFO] Worker exiting (pid: 4370)
+[2021-04-20 23:35:59 +0300] [4371] [INFO] Booting worker with pid: 4371
+[2021-04-20 23:35:59 +0300] [4371] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:35:59 +0300] [4371] [INFO] Worker exiting (pid: 4371)
+[2021-04-20 23:35:59 +0300] [4368] [WARNING] Worker with pid 4371 was terminated due to signal 15
+[2021-04-20 23:36:00 +0300] [4368] [INFO] Shutting down: Master
+[2021-04-20 23:36:00 +0300] [4368] [INFO] Reason: Worker failed to boot.
+[2021-04-20 23:37:04 +0300] [4495] [INFO] Starting gunicorn 20.1.0
+[2021-04-20 23:37:04 +0300] [4495] [INFO] Listening at: http://0.0.0.0:8080 (4495)
+[2021-04-20 23:37:04 +0300] [4495] [INFO] Using worker: sync
+[2021-04-20 23:37:04 +0300] [4497] [INFO] Booting worker with pid: 4497
+[2021-04-20 23:37:04 +0300] [4497] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-20 23:37:04 +0300] [4497] [INFO] Worker exiting (pid: 4497)
+[2021-04-20 23:37:05 +0300] [4495] [INFO] Shutting down: Master
+[2021-04-20 23:37:05 +0300] [4495] [INFO] Reason: Worker failed to boot.
+[2021-04-21 14:51:34 +0300] [4264] [INFO] Starting gunicorn 20.1.0
+[2021-04-21 14:51:34 +0300] [4264] [INFO] Listening at: http://0.0.0.0:8080 (4264)
+[2021-04-21 14:51:34 +0300] [4264] [INFO] Using worker: sync
+[2021-04-21 14:51:34 +0300] [4266] [INFO] Booting worker with pid: 4266
+[2021-04-21 14:51:34 +0300] [4266] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:34 +0300] [4266] [INFO] Worker exiting (pid: 4266)
+[2021-04-21 14:51:34 +0300] [4264] [INFO] Shutting down: Master
+[2021-04-21 14:51:34 +0300] [4264] [INFO] Reason: Worker failed to boot.
+[2021-04-21 14:51:42 +0300] [4268] [INFO] Starting gunicorn 20.1.0
+[2021-04-21 14:51:42 +0300] [4268] [INFO] Listening at: http://0.0.0.0:8080 (4268)
+[2021-04-21 14:51:42 +0300] [4268] [INFO] Using worker: sync
+[2021-04-21 14:51:42 +0300] [4270] [INFO] Booting worker with pid: 4270
+[2021-04-21 14:51:42 +0300] [4270] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:42 +0300] [4270] [INFO] Worker exiting (pid: 4270)
+[2021-04-21 14:51:42 +0300] [4268] [INFO] Shutting down: Master
+[2021-04-21 14:51:42 +0300] [4268] [INFO] Reason: Worker failed to boot.
+[2021-04-21 14:51:44 +0300] [4271] [INFO] Starting gunicorn 20.1.0
+[2021-04-21 14:51:44 +0300] [4271] [INFO] Listening at: http://0.0.0.0:8080 (4271)
+[2021-04-21 14:51:44 +0300] [4271] [INFO] Using worker: sync
+[2021-04-21 14:51:44 +0300] [4273] [INFO] Booting worker with pid: 4273
+[2021-04-21 14:51:44 +0300] [4273] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:44 +0300] [4273] [INFO] Worker exiting (pid: 4273)
+[2021-04-21 14:51:44 +0300] [4274] [INFO] Booting worker with pid: 4274
+[2021-04-21 14:51:44 +0300] [4274] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:44 +0300] [4274] [INFO] Worker exiting (pid: 4274)
+[2021-04-21 14:51:51 +0300] [4275] [INFO] Starting gunicorn 20.1.0
+[2021-04-21 14:51:51 +0300] [4275] [INFO] Listening at: http://0.0.0.0:8080 (4275)
+[2021-04-21 14:51:51 +0300] [4275] [INFO] Using worker: sync
+[2021-04-21 14:51:51 +0300] [4277] [INFO] Booting worker with pid: 4277
+[2021-04-21 14:51:51 +0300] [4277] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:51 +0300] [4277] [INFO] Worker exiting (pid: 4277)
+[2021-04-21 14:51:51 +0300] [4278] [INFO] Booting worker with pid: 4278
+[2021-04-21 14:51:51 +0300] [4278] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/.local/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 14:51:51 +0300] [4278] [INFO] Worker exiting (pid: 4278)
+[2021-04-21 14:51:51 +0300] [4275] [WARNING] Worker with pid 4278 was terminated due to signal 15
+[2021-04-21 14:51:51 +0300] [4275] [INFO] Shutting down: Master
+[2021-04-21 14:51:51 +0300] [4275] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:19:08 +0300] [11252] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:19:08 +0300] [11252] [INFO] Listening at: http://0.0.0.0:8080 (11252)
+[2021-04-21 16:19:08 +0300] [11252] [INFO] Using worker: sync
+[2021-04-21 16:19:08 +0300] [11254] [INFO] Booting worker with pid: 11254
+[2021-04-21 16:19:08 +0300] [11254] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:08 +0300] [11254] [INFO] Worker exiting (pid: 11254)
+[2021-04-21 16:19:08 +0300] [11255] [INFO] Booting worker with pid: 11255
+[2021-04-21 16:19:08 +0300] [11255] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:08 +0300] [11255] [INFO] Worker exiting (pid: 11255)
+[2021-04-21 16:19:08 +0300] [11252] [INFO] Shutting down: Master
+[2021-04-21 16:19:08 +0300] [11252] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:19:11 +0300] [11258] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:19:11 +0300] [11258] [INFO] Listening at: http://0.0.0.0:8080 (11258)
+[2021-04-21 16:19:11 +0300] [11258] [INFO] Using worker: sync
+[2021-04-21 16:19:11 +0300] [11260] [INFO] Booting worker with pid: 11260
+[2021-04-21 16:19:11 +0300] [11260] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:11 +0300] [11260] [INFO] Worker exiting (pid: 11260)
+[2021-04-21 16:19:11 +0300] [11258] [INFO] Shutting down: Master
+[2021-04-21 16:19:11 +0300] [11258] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:19:12 +0300] [11262] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:19:12 +0300] [11262] [INFO] Listening at: http://0.0.0.0:8080 (11262)
+[2021-04-21 16:19:12 +0300] [11262] [INFO] Using worker: sync
+[2021-04-21 16:19:12 +0300] [11264] [INFO] Booting worker with pid: 11264
+[2021-04-21 16:19:12 +0300] [11264] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:12 +0300] [11264] [INFO] Worker exiting (pid: 11264)
+[2021-04-21 16:19:12 +0300] [11262] [INFO] Shutting down: Master
+[2021-04-21 16:19:12 +0300] [11262] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:19:18 +0300] [11268] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:19:18 +0300] [11268] [INFO] Listening at: http://0.0.0.0:8080 (11268)
+[2021-04-21 16:19:18 +0300] [11268] [INFO] Using worker: sync
+[2021-04-21 16:19:18 +0300] [11270] [INFO] Booting worker with pid: 11270
+[2021-04-21 16:19:18 +0300] [11270] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:18 +0300] [11270] [INFO] Worker exiting (pid: 11270)
+[2021-04-21 16:19:18 +0300] [11271] [INFO] Booting worker with pid: 11271
+[2021-04-21 16:19:18 +0300] [11271] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:18 +0300] [11271] [INFO] Worker exiting (pid: 11271)
+[2021-04-21 16:19:18 +0300] [11272] [INFO] Booting worker with pid: 11272
+[2021-04-21 16:19:18 +0300] [11272] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask'
+[2021-04-21 16:19:18 +0300] [11272] [INFO] Worker exiting (pid: 11272)
+[2021-04-21 16:19:18 +0300] [11268] [INFO] Shutting down: Master
+[2021-04-21 16:19:18 +0300] [11268] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:20:45 +0300] [11296] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:20:45 +0300] [11296] [INFO] Listening at: http://0.0.0.0:8080 (11296)
+[2021-04-21 16:20:45 +0300] [11296] [INFO] Using worker: sync
+[2021-04-21 16:20:45 +0300] [11298] [INFO] Booting worker with pid: 11298
+[2021-04-21 16:20:45 +0300] [11298] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:20:45 +0300] [11298] [INFO] Worker exiting (pid: 11298)
+[2021-04-21 16:20:45 +0300] [11299] [INFO] Booting worker with pid: 11299
+[2021-04-21 16:20:45 +0300] [11299] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:20:45 +0300] [11299] [INFO] Worker exiting (pid: 11299)
+[2021-04-21 16:22:42 +0300] [11342] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:22:42 +0300] [11342] [INFO] Listening at: http://0.0.0.0:8080 (11342)
+[2021-04-21 16:22:42 +0300] [11342] [INFO] Using worker: sync
+[2021-04-21 16:22:42 +0300] [11344] [INFO] Booting worker with pid: 11344
+[2021-04-21 16:22:42 +0300] [11344] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:22:42 +0300] [11344] [INFO] Worker exiting (pid: 11344)
+[2021-04-21 16:22:42 +0300] [11345] [INFO] Booting worker with pid: 11345
+[2021-04-21 16:22:42 +0300] [11345] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:22:43 +0300] [11345] [INFO] Worker exiting (pid: 11345)
+[2021-04-21 16:22:43 +0300] [11346] [INFO] Booting worker with pid: 11346
+[2021-04-21 16:22:43 +0300] [11346] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:22:43 +0300] [11347] [INFO] Booting worker with pid: 11347
+[2021-04-21 16:22:43 +0300] [11346] [INFO] Worker exiting (pid: 11346)
+[2021-04-21 16:22:43 +0300] [11347] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:22:43 +0300] [11347] [INFO] Worker exiting (pid: 11347)
+[2021-04-21 16:25:09 +0300] [11402] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:25:09 +0300] [11402] [INFO] Listening at: http://0.0.0.0:8080 (11402)
+[2021-04-21 16:25:09 +0300] [11402] [INFO] Using worker: sync
+[2021-04-21 16:25:09 +0300] [11404] [INFO] Booting worker with pid: 11404
+[2021-04-21 16:25:09 +0300] [11404] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:25:09 +0300] [11404] [INFO] Worker exiting (pid: 11404)
+[2021-04-21 16:25:09 +0300] [11402] [INFO] Shutting down: Master
+[2021-04-21 16:25:09 +0300] [11402] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:31:38 +0300] [11475] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:31:38 +0300] [11475] [INFO] Listening at: http://0.0.0.0:8080 (11475)
+[2021-04-21 16:31:38 +0300] [11475] [INFO] Using worker: sync
+[2021-04-21 16:31:38 +0300] [11477] [INFO] Booting worker with pid: 11477
+[2021-04-21 16:31:38 +0300] [11477] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:38 +0300] [11477] [INFO] Worker exiting (pid: 11477)
+[2021-04-21 16:31:38 +0300] [11478] [INFO] Booting worker with pid: 11478
+[2021-04-21 16:31:38 +0300] [11478] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:38 +0300] [11478] [INFO] Worker exiting (pid: 11478)
+[2021-04-21 16:31:38 +0300] [11475] [INFO] Shutting down: Master
+[2021-04-21 16:31:38 +0300] [11475] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:31:40 +0300] [11480] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:31:40 +0300] [11480] [INFO] Listening at: http://0.0.0.0:8080 (11480)
+[2021-04-21 16:31:40 +0300] [11480] [INFO] Using worker: sync
+[2021-04-21 16:31:40 +0300] [11482] [INFO] Booting worker with pid: 11482
+[2021-04-21 16:31:40 +0300] [11482] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:40 +0300] [11482] [INFO] Worker exiting (pid: 11482)
+[2021-04-21 16:31:40 +0300] [11483] [INFO] Booting worker with pid: 11483
+[2021-04-21 16:31:40 +0300] [11483] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:40 +0300] [11483] [INFO] Worker exiting (pid: 11483)
+[2021-04-21 16:31:40 +0300] [11480] [INFO] Shutting down: Master
+[2021-04-21 16:31:40 +0300] [11480] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:31:41 +0300] [11485] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:31:41 +0300] [11485] [INFO] Listening at: http://0.0.0.0:8080 (11485)
+[2021-04-21 16:31:41 +0300] [11485] [INFO] Using worker: sync
+[2021-04-21 16:31:41 +0300] [11487] [INFO] Booting worker with pid: 11487
+[2021-04-21 16:31:41 +0300] [11487] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:41 +0300] [11487] [INFO] Worker exiting (pid: 11487)
+[2021-04-21 16:31:41 +0300] [11485] [INFO] Shutting down: Master
+[2021-04-21 16:31:41 +0300] [11485] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:31:54 +0300] [11490] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:31:54 +0300] [11490] [INFO] Listening at: http://0.0.0.0:8080 (11490)
+[2021-04-21 16:31:54 +0300] [11490] [INFO] Using worker: sync
+[2021-04-21 16:31:54 +0300] [11492] [INFO] Booting worker with pid: 11492
+[2021-04-21 16:31:54 +0300] [11492] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:54 +0300] [11492] [INFO] Worker exiting (pid: 11492)
+[2021-04-21 16:31:54 +0300] [11490] [INFO] Shutting down: Master
+[2021-04-21 16:31:54 +0300] [11490] [INFO] Reason: Worker failed to boot.
+[2021-04-21 16:31:58 +0300] [11495] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 16:31:58 +0300] [11495] [INFO] Listening at: http://0.0.0.0:8080 (11495)
+[2021-04-21 16:31:58 +0300] [11495] [INFO] Using worker: sync
+[2021-04-21 16:31:58 +0300] [11497] [INFO] Booting worker with pid: 11497
+[2021-04-21 16:31:58 +0300] [11497] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:58 +0300] [11497] [INFO] Worker exiting (pid: 11497)
+[2021-04-21 16:31:59 +0300] [11498] [INFO] Booting worker with pid: 11498
+[2021-04-21 16:31:59 +0300] [11498] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 16:31:59 +0300] [11498] [INFO] Worker exiting (pid: 11498)
+[2021-04-21 16:31:59 +0300] [11495] [INFO] Shutting down: Master
+[2021-04-21 16:31:59 +0300] [11495] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:39:13 +0300] [3702] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:39:13 +0300] [3702] [INFO] Listening at: http://0.0.0.0:8080 (3702)
+[2021-04-21 17:39:13 +0300] [3702] [INFO] Using worker: sync
+[2021-04-21 17:39:13 +0300] [3704] [INFO] Booting worker with pid: 3704
+[2021-04-21 17:39:13 +0300] [3704] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:39:13 +0300] [3704] [INFO] Worker exiting (pid: 3704)
+[2021-04-21 17:39:13 +0300] [3705] [INFO] Booting worker with pid: 3705
+[2021-04-21 17:39:13 +0300] [3705] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:39:13 +0300] [3705] [INFO] Worker exiting (pid: 3705)
+[2021-04-21 17:39:13 +0300] [3702] [INFO] Shutting down: Master
+[2021-04-21 17:39:13 +0300] [3702] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:39:15 +0300] [3721] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:39:15 +0300] [3721] [INFO] Listening at: http://0.0.0.0:8080 (3721)
+[2021-04-21 17:39:15 +0300] [3721] [INFO] Using worker: sync
+[2021-04-21 17:39:15 +0300] [3723] [INFO] Booting worker with pid: 3723
+[2021-04-21 17:39:15 +0300] [3723] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:39:15 +0300] [3723] [INFO] Worker exiting (pid: 3723)
+[2021-04-21 17:39:15 +0300] [3721] [INFO] Shutting down: Master
+[2021-04-21 17:39:15 +0300] [3721] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:44:48 +0300] [3805] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:44:48 +0300] [3805] [INFO] Listening at: http://0.0.0.0:8080 (3805)
+[2021-04-21 17:44:48 +0300] [3805] [INFO] Using worker: sync
+[2021-04-21 17:44:48 +0300] [3807] [INFO] Booting worker with pid: 3807
+[2021-04-21 17:44:48 +0300] [3807] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:44:48 +0300] [3807] [INFO] Worker exiting (pid: 3807)
+[2021-04-21 17:44:48 +0300] [3805] [INFO] Shutting down: Master
+[2021-04-21 17:44:48 +0300] [3805] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:44:51 +0300] [3809] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:44:51 +0300] [3809] [INFO] Listening at: http://0.0.0.0:8080 (3809)
+[2021-04-21 17:44:51 +0300] [3809] [INFO] Using worker: sync
+[2021-04-21 17:44:51 +0300] [3811] [INFO] Booting worker with pid: 3811
+[2021-04-21 17:44:51 +0300] [3811] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:44:51 +0300] [3811] [INFO] Worker exiting (pid: 3811)
+[2021-04-21 17:44:51 +0300] [3812] [INFO] Booting worker with pid: 3812
+[2021-04-21 17:44:51 +0300] [3812] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:44:51 +0300] [3812] [INFO] Worker exiting (pid: 3812)
+[2021-04-21 17:44:51 +0300] [3809] [INFO] Shutting down: Master
+[2021-04-21 17:44:51 +0300] [3809] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:45:10 +0300] [3820] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:45:10 +0300] [3820] [INFO] Listening at: http://0.0.0.0:8080 (3820)
+[2021-04-21 17:45:10 +0300] [3820] [INFO] Using worker: sync
+[2021-04-21 17:45:10 +0300] [3822] [INFO] Booting worker with pid: 3822
+[2021-04-21 17:45:10 +0300] [3822] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:45:10 +0300] [3822] [INFO] Worker exiting (pid: 3822)
+[2021-04-21 17:45:10 +0300] [3823] [INFO] Booting worker with pid: 3823
+[2021-04-21 17:45:10 +0300] [3823] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:45:10 +0300] [3823] [INFO] Worker exiting (pid: 3823)
+[2021-04-21 17:45:10 +0300] [3820] [INFO] Shutting down: Master
+[2021-04-21 17:45:10 +0300] [3820] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:45:43 +0300] [3844] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:45:43 +0300] [3844] [INFO] Listening at: http://0.0.0.0:8080 (3844)
+[2021-04-21 17:45:43 +0300] [3844] [INFO] Using worker: sync
+[2021-04-21 17:45:43 +0300] [3846] [INFO] Booting worker with pid: 3846
+[2021-04-21 17:45:43 +0300] [3846] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:45:43 +0300] [3846] [INFO] Worker exiting (pid: 3846)
+[2021-04-21 17:45:43 +0300] [3844] [INFO] Shutting down: Master
+[2021-04-21 17:45:43 +0300] [3844] [INFO] Reason: Worker failed to boot.
+[2021-04-21 17:45:57 +0300] [3853] [INFO] Starting gunicorn 20.0.4
+[2021-04-21 17:45:57 +0300] [3853] [INFO] Listening at: http://0.0.0.0:8080 (3853)
+[2021-04-21 17:45:57 +0300] [3853] [INFO] Using worker: sync
+[2021-04-21 17:45:57 +0300] [3855] [INFO] Booting worker with pid: 3855
+[2021-04-21 17:45:57 +0300] [3855] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:45:57 +0300] [3855] [INFO] Worker exiting (pid: 3855)
+[2021-04-21 17:45:57 +0300] [3856] [INFO] Booting worker with pid: 3856
+[2021-04-21 17:45:57 +0300] [3856] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python3/dist-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python3/dist-packages/gunicorn/util.py", line 383, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+[2021-04-21 17:45:57 +0300] [3856] [INFO] Worker exiting (pid: 3856)
+[2021-04-21 17:45:57 +0300] [3853] [INFO] Shutting down: Master
+[2021-04-21 17:45:57 +0300] [3853] [INFO] Reason: Worker failed to boot.
+[2021-04-24 18:33:30 +0300] [5599] [INFO] Starting gunicorn 20.1.0
+[2021-04-24 18:33:30 +0300] [5599] [INFO] Listening at: http://0.0.0.0:8080 (5599)
+[2021-04-24 18:33:30 +0300] [5599] [INFO] Using worker: sync
+[2021-04-24 18:33:30 +0300] [5601] [INFO] Booting worker with pid: 5601
+[2021-04-24 18:33:30 +0300] [5602] [INFO] Booting worker with pid: 5602
+[2021-04-24 18:33:30 +0300] [5601] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.wsgi'
+[2021-04-24 18:33:30 +0300] [5601] [INFO] Worker exiting (pid: 5601)
+[2021-04-24 18:33:30 +0300] [5602] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.wsgi'
+[2021-04-24 18:33:30 +0300] [5602] [INFO] Worker exiting (pid: 5602)
+[2021-04-24 18:33:54 +0300] [5610] [INFO] Starting gunicorn 20.1.0
+[2021-04-24 18:33:54 +0300] [5610] [INFO] Listening at: http://0.0.0.0:8080 (5610)
+[2021-04-24 18:33:54 +0300] [5610] [INFO] Using worker: sync
+[2021-04-24 18:33:54 +0300] [5612] [INFO] Booting worker with pid: 5612
+[2021-04-24 18:33:54 +0300] [5613] [INFO] Booting worker with pid: 5613
+[2021-04-24 18:33:54 +0300] [5614] [INFO] Booting worker with pid: 5614
+[2021-04-24 18:33:54 +0300] [5615] [INFO] Booting worker with pid: 5615
+[2021-04-24 18:33:54 +0300] [5616] [INFO] Booting worker with pid: 5616
+[2021-04-24 18:33:54 +0300] [5617] [INFO] Booting worker with pid: 5617
+[2021-04-24 18:33:54 +0300] [5618] [INFO] Booting worker with pid: 5618
+[2021-04-24 18:33:54 +0300] [5619] [INFO] Booting worker with pid: 5619
+[2021-04-24 18:33:54 +0300] [5620] [INFO] Booting worker with pid: 5620
+[2021-04-24 18:34:37 +0300] [5610] [INFO] Handling signal: int
+[2021-04-24 15:34:37 +0000] [5613] [INFO] Worker exiting (pid: 5613)
+[2021-04-24 15:34:37 +0000] [5614] [INFO] Worker exiting (pid: 5614)
+[2021-04-24 15:34:37 +0000] [5615] [INFO] Worker exiting (pid: 5615)
+[2021-04-24 15:34:37 +0000] [5620] [INFO] Worker exiting (pid: 5620)
+[2021-04-24 15:34:37 +0000] [5617] [INFO] Worker exiting (pid: 5617)
+[2021-04-24 15:34:37 +0000] [5616] [INFO] Worker exiting (pid: 5616)
+[2021-04-24 15:34:37 +0000] [5618] [INFO] Worker exiting (pid: 5618)
+[2021-04-24 15:34:37 +0000] [5619] [INFO] Worker exiting (pid: 5619)
+[2021-04-24 15:34:37 +0000] [5612] [INFO] Worker exiting (pid: 5612)
+[2021-04-24 18:34:37 +0300] [5610] [INFO] Shutting down: Master
+[2021-04-24 18:34:41 +0300] [5635] [INFO] Starting gunicorn 20.1.0
+[2021-04-24 18:34:41 +0300] [5635] [INFO] Listening at: http://0.0.0.0:8080 (5635)
+[2021-04-24 18:34:41 +0300] [5635] [INFO] Using worker: sync
+[2021-04-24 18:34:41 +0300] [5637] [INFO] Booting worker with pid: 5637
+[2021-04-24 18:34:41 +0300] [5638] [INFO] Booting worker with pid: 5638
+[2021-04-24 18:34:41 +0300] [5639] [INFO] Booting worker with pid: 5639
+[2021-04-24 18:34:41 +0300] [5640] [INFO] Booting worker with pid: 5640
+[2021-04-24 18:34:41 +0300] [5641] [INFO] Booting worker with pid: 5641
+[2021-04-24 18:34:41 +0300] [5642] [INFO] Booting worker with pid: 5642
+[2021-04-24 18:34:41 +0300] [5643] [INFO] Booting worker with pid: 5643
+[2021-04-24 18:34:41 +0300] [5644] [INFO] Booting worker with pid: 5644
+[2021-04-24 18:34:41 +0300] [5645] [INFO] Booting worker with pid: 5645
+[2021-04-24 18:36:06 +0300] [5635] [INFO] Handling signal: int
+[2021-04-24 15:36:07 +0000] [5639] [INFO] Worker exiting (pid: 5639)
+[2021-04-24 15:36:07 +0000] [5642] [INFO] Worker exiting (pid: 5642)
+[2021-04-24 15:36:07 +0000] [5638] [INFO] Worker exiting (pid: 5638)
+[2021-04-24 15:36:07 +0000] [5637] [INFO] Worker exiting (pid: 5637)
+[2021-04-24 15:36:07 +0000] [5640] [INFO] Worker exiting (pid: 5640)
+[2021-04-24 15:36:07 +0000] [5644] [INFO] Worker exiting (pid: 5644)
+[2021-04-24 15:36:07 +0000] [5641] [INFO] Worker exiting (pid: 5641)
+[2021-04-24 15:36:07 +0000] [5645] [INFO] Worker exiting (pid: 5645)
+[2021-04-24 15:36:07 +0000] [5643] [INFO] Worker exiting (pid: 5643)
+[2021-04-24 18:36:07 +0300] [5635] [INFO] Shutting down: Master
+[2021-04-24 18:36:44 +0300] [5717] [INFO] Starting gunicorn 20.1.0
+[2021-04-24 18:36:44 +0300] [5717] [INFO] Listening at: http://0.0.0.0:8080 (5717)
+[2021-04-24 18:36:44 +0300] [5717] [INFO] Using worker: sync
+[2021-04-24 18:36:44 +0300] [5719] [INFO] Booting worker with pid: 5719
+[2021-04-24 18:36:44 +0300] [5720] [INFO] Booting worker with pid: 5720
+[2021-04-24 18:36:44 +0300] [5721] [INFO] Booting worker with pid: 5721
+[2021-04-24 18:36:44 +0300] [5722] [INFO] Booting worker with pid: 5722
+[2021-04-24 18:36:44 +0300] [5723] [INFO] Booting worker with pid: 5723
+[2021-04-24 18:36:44 +0300] [5724] [INFO] Booting worker with pid: 5724
+[2021-04-24 18:36:44 +0300] [5725] [INFO] Booting worker with pid: 5725
+[2021-04-24 18:36:44 +0300] [5726] [INFO] Booting worker with pid: 5726
+[2021-04-24 18:36:44 +0300] [5727] [INFO] Booting worker with pid: 5727
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5719)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5720)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5721)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5722)
+[2021-04-24 17:09:01 +0000] [5719] [INFO] Worker exiting (pid: 5719)
+[2021-04-24 17:09:01 +0000] [5720] [INFO] Worker exiting (pid: 5720)
+[2021-04-24 17:09:01 +0000] [5721] [INFO] Worker exiting (pid: 5721)
+[2021-04-24 17:09:01 +0000] [5722] [INFO] Worker exiting (pid: 5722)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5723)
+[2021-04-24 17:09:01 +0000] [5723] [INFO] Worker exiting (pid: 5723)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5724)
+[2021-04-24 17:09:01 +0000] [5724] [INFO] Worker exiting (pid: 5724)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5725)
+[2021-04-24 17:09:01 +0000] [5725] [INFO] Worker exiting (pid: 5725)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5726)
+[2021-04-24 17:09:01 +0000] [5726] [INFO] Worker exiting (pid: 5726)
+[2021-04-24 20:09:01 +0300] [5717] [CRITICAL] WORKER TIMEOUT (pid:5727)
+[2021-04-24 17:09:01 +0000] [5727] [INFO] Worker exiting (pid: 5727)
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5726 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [8583] [INFO] Booting worker with pid: 8583
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5723 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5725 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5724 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5727 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [5717] [WARNING] Worker with pid 5722 was terminated due to signal 9
+[2021-04-24 20:09:01 +0300] [8584] [INFO] Booting worker with pid: 8584
+[2021-04-24 20:09:01 +0300] [8585] [INFO] Booting worker with pid: 8585
+[2021-04-24 20:09:01 +0300] [8586] [INFO] Booting worker with pid: 8586
+[2021-04-24 20:09:01 +0300] [8587] [INFO] Booting worker with pid: 8587
+[2021-04-24 20:09:01 +0300] [8588] [INFO] Booting worker with pid: 8588
+[2021-04-24 20:09:01 +0300] [8589] [INFO] Booting worker with pid: 8589
+[2021-04-24 20:09:01 +0300] [8590] [INFO] Booting worker with pid: 8590
+[2021-04-24 20:09:01 +0300] [8591] [INFO] Booting worker with pid: 8591
+[2021-04-24 22:39:02 +0300] [5717] [INFO] Handling signal: int
+[2021-04-24 19:39:02 +0000] [8588] [INFO] Worker exiting (pid: 8588)
+[2021-04-24 19:39:02 +0000] [8590] [INFO] Worker exiting (pid: 8590)
+[2021-04-24 19:39:02 +0000] [8585] [INFO] Worker exiting (pid: 8585)
+[2021-04-24 19:39:02 +0000] [8587] [INFO] Worker exiting (pid: 8587)
+[2021-04-24 19:39:02 +0000] [8591] [INFO] Worker exiting (pid: 8591)
+[2021-04-24 19:39:02 +0000] [8583] [INFO] Worker exiting (pid: 8583)
+[2021-04-24 19:39:02 +0000] [8584] [INFO] Worker exiting (pid: 8584)
+[2021-04-24 19:39:02 +0000] [8586] [INFO] Worker exiting (pid: 8586)
+[2021-04-24 19:39:02 +0000] [8589] [INFO] Worker exiting (pid: 8589)
+[2021-04-24 22:39:02 +0300] [5717] [INFO] Shutting down: Master
+[2021-04-24 22:39:14 +0300] [18505] [INFO] Starting gunicorn 20.1.0
+[2021-04-24 22:39:14 +0300] [18505] [INFO] Listening at: http://0.0.0.0:8080 (18505)
+[2021-04-24 22:39:14 +0300] [18505] [INFO] Using worker: sync
+[2021-04-24 22:39:14 +0300] [18507] [INFO] Booting worker with pid: 18507
+[2021-04-24 22:39:14 +0300] [18508] [INFO] Booting worker with pid: 18508
+[2021-04-24 22:39:14 +0300] [18509] [INFO] Booting worker with pid: 18509
+[2021-04-24 22:39:14 +0300] [18510] [INFO] Booting worker with pid: 18510
+[2021-04-24 22:39:14 +0300] [18511] [INFO] Booting worker with pid: 18511
+[2021-04-24 22:39:14 +0300] [18512] [INFO] Booting worker with pid: 18512
+[2021-04-24 22:39:14 +0300] [18513] [INFO] Booting worker with pid: 18513
+[2021-04-24 22:39:14 +0300] [18514] [INFO] Booting worker with pid: 18514
+[2021-04-24 22:39:14 +0300] [18515] [INFO] Booting worker with pid: 18515
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18507 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18508 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18511 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18512 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18514 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18513 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18510 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18515 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18509 was terminated due to signal 1
+[2021-04-24 22:44:09 +0300] [18659] [INFO] Booting worker with pid: 18659
+[2021-04-24 22:44:09 +0300] [18660] [INFO] Booting worker with pid: 18660
+[2021-04-24 22:44:09 +0300] [18661] [INFO] Booting worker with pid: 18661
+[2021-04-24 22:44:09 +0300] [18662] [INFO] Booting worker with pid: 18662
+[2021-04-24 22:44:09 +0300] [18505] [INFO] Handling signal: hup
+[2021-04-24 22:44:09 +0300] [18505] [INFO] Hang up: Master
+[2021-04-24 22:44:09 +0300] [18665] [INFO] Booting worker with pid: 18665
+[2021-04-24 22:44:09 +0300] [18667] [INFO] Booting worker with pid: 18667
+[2021-04-24 22:44:09 +0300] [18664] [INFO] Booting worker with pid: 18664
+[2021-04-24 22:44:09 +0300] [18668] [INFO] Booting worker with pid: 18668
+[2021-04-24 22:44:09 +0300] [18666] [INFO] Booting worker with pid: 18666
+[2021-04-24 22:44:09 +0300] [18669] [INFO] Booting worker with pid: 18669
+[2021-04-24 22:44:09 +0300] [18672] [INFO] Booting worker with pid: 18672
+[2021-04-24 19:44:09 +0000] [18659] [INFO] Worker exiting (pid: 18659)
+[2021-04-24 22:44:09 +0300] [18505] [INFO] Handling signal: term
+[2021-04-24 22:44:09 +0300] [18670] [INFO] Booting worker with pid: 18670
+[2021-04-24 22:44:09 +0300] [18671] [INFO] Booting worker with pid: 18671
+[2021-04-24 22:44:09 +0300] [18505] [WARNING] Worker with pid 18659 was terminated due to signal 15
+[2021-04-24 19:44:09 +0000] [18660] [INFO] Worker exiting (pid: 18660)
+[2021-04-24 19:44:09 +0000] [18661] [INFO] Worker exiting (pid: 18661)
+[2021-04-24 19:44:10 +0000] [18669] [INFO] Worker exiting (pid: 18669)
+[2021-04-24 19:44:10 +0000] [18662] [INFO] Worker exiting (pid: 18662)
+[2021-04-24 19:44:10 +0000] [18664] [INFO] Worker exiting (pid: 18664)
+[2021-04-24 19:44:10 +0000] [18665] [INFO] Worker exiting (pid: 18665)
+[2021-04-24 19:44:10 +0000] [18667] [INFO] Worker exiting (pid: 18667)
+[2021-04-24 19:44:10 +0000] [18672] [INFO] Worker exiting (pid: 18672)
+[2021-04-24 19:44:10 +0000] [18668] [INFO] Worker exiting (pid: 18668)
+[2021-04-24 19:44:10 +0000] [18666] [INFO] Worker exiting (pid: 18666)
+[2021-04-24 22:44:39 +0300] [18505] [INFO] Shutting down: Master
+[2021-04-26 13:41:06 +0300] [2717] [INFO] Starting gunicorn 20.1.0
+[2021-04-26 13:41:07 +0300] [2717] [INFO] Listening at: http://0.0.0.0:8080 (2717)
+[2021-04-26 13:41:07 +0300] [2717] [INFO] Using worker: sync
+[2021-04-26 13:41:07 +0300] [2719] [INFO] Booting worker with pid: 2719
+[2021-04-26 13:41:07 +0300] [2720] [INFO] Booting worker with pid: 2720
+[2021-04-26 13:41:07 +0300] [2721] [INFO] Booting worker with pid: 2721
+[2021-04-26 13:41:07 +0300] [2722] [INFO] Booting worker with pid: 2722
+[2021-04-26 13:41:07 +0300] [2723] [INFO] Booting worker with pid: 2723
+[2021-04-26 13:41:07 +0300] [2724] [INFO] Booting worker with pid: 2724
+[2021-04-26 13:41:07 +0300] [2725] [INFO] Booting worker with pid: 2725
+[2021-04-26 13:41:07 +0300] [2726] [INFO] Booting worker with pid: 2726
+[2021-04-26 13:41:07 +0300] [2727] [INFO] Booting worker with pid: 2727
+[2021-04-26 13:41:07 +0300] [2727] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2726] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2720] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2721] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2727] [INFO] Worker exiting (pid: 2727)
+[2021-04-26 13:41:07 +0300] [2726] [INFO] Worker exiting (pid: 2726)
+[2021-04-26 13:41:07 +0300] [2720] [INFO] Worker exiting (pid: 2720)
+[2021-04-26 13:41:07 +0300] [2721] [INFO] Worker exiting (pid: 2721)
+[2021-04-26 13:41:07 +0300] [2723] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2723] [INFO] Worker exiting (pid: 2723)
+[2021-04-26 13:41:07 +0300] [2719] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2719] [INFO] Worker exiting (pid: 2719)
+[2021-04-26 13:41:07 +0300] [2724] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2724] [INFO] Worker exiting (pid: 2724)
+[2021-04-26 13:41:07 +0300] [2725] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2725] [INFO] Worker exiting (pid: 2725)
+[2021-04-26 13:41:07 +0300] [2722] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/veles/Documents/repositorys/stepik_web_project/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/veles/Documents/repositorys/stepik_web_project/env/lib/python3.8/site-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ask.settings'
+[2021-04-26 13:41:07 +0300] [2722] [INFO] Worker exiting (pid: 2722)
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2724 was terminated due to signal 15
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2720 was terminated due to signal 15
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2726 was terminated due to signal 15
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2725 was terminated due to signal 15
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2722 was terminated due to signal 15
+[2021-04-26 13:41:08 +0300] [2717] [WARNING] Worker with pid 2723 was terminated due to signal 15
+[2021-04-26 13:41:52 +0300] [2736] [INFO] Starting gunicorn 20.1.0
+[2021-04-26 13:41:52 +0300] [2736] [INFO] Listening at: http://0.0.0.0:8080 (2736)
+[2021-04-26 13:41:52 +0300] [2736] [INFO] Using worker: sync
+[2021-04-26 13:41:52 +0300] [2738] [INFO] Booting worker with pid: 2738
+[2021-04-26 13:41:52 +0300] [2739] [INFO] Booting worker with pid: 2739
+[2021-04-26 13:41:53 +0300] [2740] [INFO] Booting worker with pid: 2740
+[2021-04-26 13:41:53 +0300] [2741] [INFO] Booting worker with pid: 2741
+[2021-04-26 13:41:53 +0300] [2742] [INFO] Booting worker with pid: 2742
+[2021-04-26 13:41:53 +0300] [2743] [INFO] Booting worker with pid: 2743
+[2021-04-26 13:41:53 +0300] [2744] [INFO] Booting worker with pid: 2744
+[2021-04-26 13:41:53 +0300] [2745] [INFO] Booting worker with pid: 2745
+[2021-04-26 13:41:53 +0300] [2746] [INFO] Booting worker with pid: 2746
+[2021-04-26 13:41:58 +0300] [2736] [INFO] Handling signal: int
+[2021-04-26 10:41:58 +0000] [2742] [INFO] Worker exiting (pid: 2742)
+[2021-04-26 10:41:58 +0000] [2740] [INFO] Worker exiting (pid: 2740)
+[2021-04-26 10:41:58 +0000] [2741] [INFO] Worker exiting (pid: 2741)
+[2021-04-26 10:41:58 +0000] [2743] [INFO] Worker exiting (pid: 2743)
+[2021-04-26 10:41:58 +0000] [2745] [INFO] Worker exiting (pid: 2745)
+[2021-04-26 10:41:58 +0000] [2744] [INFO] Worker exiting (pid: 2744)
+[2021-04-26 10:41:58 +0000] [2746] [INFO] Worker exiting (pid: 2746)
+[2021-04-26 10:41:58 +0000] [2739] [INFO] Worker exiting (pid: 2739)
+[2021-04-26 10:41:58 +0000] [2738] [INFO] Worker exiting (pid: 2738)
+[2021-04-26 13:41:59 +0300] [2736] [INFO] Shutting down: Master
