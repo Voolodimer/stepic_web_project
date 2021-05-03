@@ -43,3 +43,5 @@ sudo pip3 install --upgrade gunicorn
 
 sudo python3 -m pip install mysqlclient
 sudo /etc/init.d/mysql start
+mysql -uroot -e "create database stepic_web;"
+mysql -uroot -e "grant all privileges on stepic_web.* to 'box'@'localhost' with grant option;"
