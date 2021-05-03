@@ -78,6 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'stepic_web',
+        'USER': 'box',
+        'PASSWORD': '',
     }
 }
 # 'NAME': BASE_DIR / 'db.sqlite3',
