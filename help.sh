@@ -28,8 +28,8 @@ sudo apt-get install python3.6-dev libmysqlclient-dev mysql-server
 
 
 sudo pip3 install --upgrade pip
-sudo -H pip3 install --upgrade django==3.1
-sudo pip3 install --upgrade django==3.1
+sudo -H pip3 install --upgrade django==3.0
+sudo pip3 install --upgrade django==3.0
 sudo pip3 install --upgrade gunicorn
 
 # sudo apt update
@@ -40,6 +40,8 @@ sudo pip3 install --upgrade gunicorn
 # sudo python3 -m pip install gunicorn
 # sudo python3 -m install django==2.0
 
+wget https://repo.mysql.com//mysql-apt-config_0.8.10-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
 
 sudo python3 -m pip install mysqlclient
 sudo /etc/init.d/mysql start
