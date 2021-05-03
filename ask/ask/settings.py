@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'ask.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'stepic_web',
+        'NAME': 'stepic_web',
     }
 }
 # 'NAME': BASE_DIR / 'db.sqlite3',
